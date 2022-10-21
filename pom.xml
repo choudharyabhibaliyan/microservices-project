@@ -19,6 +19,8 @@
         <module>leaves-service</module>
         <module>gateway</module>
         <module>registry</module>
+        <module>common-service</module>
+        <module>scheduler-service</module>
     </modules>
 
     <properties>
@@ -26,6 +28,7 @@
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring-cloud.version>2021.0.4</spring-cloud.version>
+        <common-version>0.0.1-RELEASE</common-version>
     </properties>
     <build>
         <plugins>

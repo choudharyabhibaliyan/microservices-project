@@ -30,6 +30,7 @@ public class OauthConfig {
     @Order(Ordered.HIGHEST_PRECEDENCE)
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         OAuth2AuthorizationServerConfiguration.applyDefaultSecurity(http);
+//        System.out.println(Constants.username);
         return http.formLogin().and().build();
     }
 

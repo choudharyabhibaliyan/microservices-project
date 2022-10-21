@@ -46,5 +46,10 @@
             <artifactId>spring-security-oauth2-authorization-server</artifactId>
             <version>0.3.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.common</groupId>
+            <artifactId>common-service</artifactId>
+            <version>${common-version}</version>
+        </dependency>
     </dependencies>
 </project>
